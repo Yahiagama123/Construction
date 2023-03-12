@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:title",
+ "creation": "2023-03-12 14:31:20.620835",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "customer",
+  "for",
+  "description",
+  "stock",
+  "price",
+  "excoast",
+  "statistics",
+  "exprofit",
+  "preprofit"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "for",
+   "fieldtype": "Select",
+   "label": "For",
+   "options": "\n\u0627\u0644\u0627\u0645\u062a\u0644\u0627\u0643\n\u0627\u0644\u0628\u064a\u0639"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "stock",
+   "fieldtype": "Link",
+   "label": "Stock",
+   "options": "Warehouse"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Float",
+   "label": "Price"
+  },
+  {
+   "fieldname": "excoast",
+   "fieldtype": "Float",
+   "label": "ExCoast"
+  },
+  {
+   "fieldname": "statistics",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "exprofit",
+   "fieldtype": "Float",
+   "label": "ExProfit",
+   "read_only": 1
+  },
+  {
+   "fieldname": "preprofit",
+   "fieldtype": "Data",
+   "label": "PreProfit %",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-12 16:43:51.813368",
+ "modified_by": "Administrator",
+ "module": "Construction",
+ "name": "Construction",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
