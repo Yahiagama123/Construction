@@ -1,0 +1,17 @@
+# Copyright (c) 2023, ahia and contributors
+# For license information, please see license.txt
+
+import frappe
+from frappe.model.document import Document
+from frappe.utils import flt
+class Dismissalnotice(Document):
+
+	pass
+
+
+	
+	def validate(doc,self):
+	
+			
+			doc.total = 10
+			
