@@ -38,12 +38,14 @@
   {
    "fetch_from": "item.opening_stock",
    "fieldname": "qty_exist",
-   "fieldtype": "Data",
-   "label": "Qty exist"
+   "fieldtype": "Float",
+   "label": "Qty exist",
+   "read_only": 1
   },
   {
+   "default": "1",
    "fieldname": "qty",
-   "fieldtype": "Data",
+   "fieldtype": "Float",
    "label": "Qty"
   },
   {
@@ -62,7 +64,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-03-14 15:20:04.916648",
+ "modified": "2023-03-15 15:30:21.766473",
  "modified_by": "Administrator",
  "module": "Construction",
  "name": "tabDismissal",

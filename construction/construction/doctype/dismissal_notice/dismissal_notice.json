@@ -18,7 +18,10 @@
   "notice",
   "section_break_eokbt",
   "list",
-  "total"
+  "section_break_tllkn",
+  "total",
+  "column_break_lo61v",
+  "tqty"
  ],
  "fields": [
   {
@@ -80,12 +83,27 @@
   {
    "fieldname": "total",
    "fieldtype": "Data",
-   "label": "Total"
+   "label": "Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "tqty",
+   "fieldtype": "Data",
+   "label": "Total QTY",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_tllkn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_lo61v",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-03-14 15:21:06.727305",
+ "modified": "2023-03-15 15:28:24.708807",
  "modified_by": "Administrator",
  "module": "Construction",
  "name": "Dismissal notice",
